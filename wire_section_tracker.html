@@ -501,8 +501,8 @@
   // Shared storage via Supabase: every visitor reads/writes the same rows, so a
   // change made by anyone shows up for everyone who has the page open (or reloads it).
   // Fill these in from your Supabase project's Settings > API page.
-  const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-  const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+  const SUPABASE_URL = 'https://nmnhweyfowvxvfoiqvzn.supabase.co';
+  const SUPABASE_ANON_KEY = 'sb_publishable_s4hPkK224DAMHIo4Qnk1qQ_HLeO7Axe';
   const supabase = (window.supabase && SUPABASE_URL !== 'YOUR_SUPABASE_URL')
     ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
     : null;
